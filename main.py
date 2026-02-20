@@ -4,7 +4,7 @@
 # Coder:
 # Date:
 
-print("--- Extracting Words from Text File ---\n")
+#print("--- Extracting Words from Text File ---\n")
 num = int(input("Enter Length of Words: "))
 words = []
 file=open("story.txt","r")
@@ -16,4 +16,5 @@ words=set(words)
 words=list(words)
 words.sort
 print(f"Following Unique words of length 8 present: {words}")
+
 
