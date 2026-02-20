@@ -5,7 +5,7 @@
 # Date:
 
 #print("--- Extracting Words from Text File ---\n")
-num = int(input("Enter Length of Words: "))
+num = int(input(""))
 words =[]
 with open("story.txt", "r") as file:
     content = file.read().split()
@@ -15,6 +15,7 @@ with open("story.txt", "r") as file:
 words=set(words)
 words=list(words)
 words.sort
-print(f"Following Unique words of length 8 present: {words}")
+print(words)
+
 
 
