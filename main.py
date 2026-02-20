@@ -14,8 +14,9 @@ with open("story.txt", "r") as file:
             words.append(i)
 words=set(words)
 words=list(words)
-words.sort
+words.sort()
 print(words)
+
 
 
 
